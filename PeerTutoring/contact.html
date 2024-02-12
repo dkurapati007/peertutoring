@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+  <header>
+        <h1>Peer Tutoring Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="tutors.html">Tutors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+	<section id="hero">
+        <h2>Get the Help You Need</h2>
+        <p>Our peer tutors are here to help you succeed.</p>
+        <button>Learn More</button>
+    </section>
+
+
+   <center> <h1> Contact Us!</h1></center>
+    <p>Please fill out the form and we will contact you </p>
+    
+	<script src="contact.js"></script>
+
+
+	<h1>Contact Us</h1>
+	<form name="contactForm" onsubmit="return validateForm()">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		
+		<label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" ><br>
+		
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message"></textarea><br>
+		
+		<input type="submit" value="Submit">
+	</form>
+    <footer>
+        <p>&copy; 2022 Peer Tutoring-DK</p>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </nav>
+    </footer>
+</html>

@@ -1,0 +1,152 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="time"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+   header {
+              background-color: #333;
+              color: #fff;
+              padding: 1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+          }
+  
+         
+       nav ul {
+              display: flex;
+              list-style: none;
+          }
+  
+          nav ul li {
+              margin-right: 1rem;
+          }
+  
+          nav ul li a {
+              color: #fff;
+              text-decoration: none;
+              font-weight: bold;
+              padding: 0.5rem;
+          }
+  
+          nav ul li a:hover {
+              background-color: #fff;
+              color: #333;
+          }
+  
+        
+          #hero {
+              background-image: url('https://source.unsplash.com/1600x900/?tutoring');
+              background-size: cover;
+              background-position: center;
+              height: 50vh;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              color: #fff;
+              text-align: center;
+          }
+  
+          #hero h2 {
+              font-size: 3rem;
+              margin-bottom: 1rem;
+          }
+  
+          #hero p {
+              font-size: 1.5rem;
+              margin-bottom: 2rem;
+          }
+  
+          #hero button {
+              background-color: #fff;
+              color: #333;
+              font-weight: bold;
+              padding: 1rem 2rem;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+              transition: all 0.2s ease-in-out;
+          }
+  
+          #hero button:hover {
+              transform: scale(1.1);
+          }
+  
+        
+          main {
+              margin: 2rem 0;
+              padding: 0 1rem;
+          }
+  
+           button {
+          display: block;
+          margin-top: 10px;
+          padding: 10px 20px;
+          background-color: #0072C6;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+        }
+        button:hover {
+          background-color: #005ea3;
+        } 
+        
+  footer {
+              background-color: #333;
+              color: #fff;
+              padding: 1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              font-size: 0.8rem;
+          }
+  
+          footer p {
+              margin: 0;
+          }
+  
+          footer a {
+              
+              text-decoration: none;
+          }
+  
+          footer a:hover {
+              text-decoration: underline;
+          }
+          
