@@ -10,7 +10,7 @@ The website consists of the following pages:
 
 1. **Home Page**: The landing page of the website.
 2. **Services Page**: Details the services offered by the peer tutors.
-3. **Contact Page**: Contains contact information and a form for visitors to reach out.
+3. **Contact Page**: A form for visitors to reach out.
 4. **Tutors Page**: Showcases the profiles of the available tutors.
 
 ## Setup
